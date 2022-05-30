@@ -1,0 +1,447 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    color:white; 
+    
+
+    }
+/*estilo h1*/
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    background-color: black;
+    color: white ;
+    text-align: left;
+    padding-top: .5em;
+}
+    /*fin estilo h1*/
+    
+    /*nav principal encabezado*/
+
+
+
+.nav {
+    margin-bottom: 6em;
+    
+}
+
+
+
+.nav , .menu-nav , .li-home , .li-esp , .li-cerv , .li-postr , .li-contac , .home-a , .esp-a , .cerv-a , .post-a , .contac-a {
+    list-style: none;
+    text-align: center;
+    background-color: black ;
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+.li-home , .li-esp , .li-cerv , .li-postr, .li-contac {
+    display: inline-block;
+    text-decoration: none;
+    padding: 30px;
+    font-size: 1.5em;
+    margin: 1em;
+    /*fin nav principal encabezado*/
+}
+   
+    /*style h2*/
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 1;
+    font-weight: 100;
+    text-align: center;
+    font-size: 4em;
+    color: white ;
+    padding: 10px;
+    background-color: black;
+    margin-top: 12%;    
+}
+    /*fin style h2*/
+
+    /*style img*/
+.img {
+    max-width: 100%;
+}
+    /*fin style img*/
+
+    /*comienzo estilo header*/
+.header {
+    
+    background-image: url("images/cuatrovasos.avif");
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    padding-bottom: 20em;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    
+}
+.conteinervermas {
+    font-size: 3em ;
+    padding-left: 44.3% ;
+    padding-right: 44.3%;
+    background-color: transparent ;
+    text-align: center;
+    display: grid;
+    grid-template-columns: (1,1fr);
+    grid-template-rows: (1,1fr);
+}
+    /*fin estilo header*/
+
+    /*estilo titulo section main*/
+.conteinertituloespecialidades , .conteinercervezas, .conteinerpostres , .conteinercontacto {
+    line-height: 3;
+    text-align: center;
+    background-color:black;
+    font-size: 2.5em;
+
+    
+    
+}
+
+    /*fin estilo titulos main*/
+
+    /*estilo main section 1*/
+
+
+.grid-sectionesp {
+    display: grid;
+    grid-template-columns:  0.4fr 0.7fr 0.4fr ;
+    grid-template-rows: repeat(3 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-items: center;
+    
+}
+
+.casaespc {
+    grid-area: 1 / 1 / 2 / 4;
+    
+}
+
+
+.logespc {
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.fotoesp {
+   grid-column-start: 1;
+   grid-column-end: 2;
+   grid-row-start: 2;
+   grid-row-end: 4;
+   
+
+}
+
+.parrafo-especialidades {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    box-sizing: border-box;
+    
+    
+}
+
+.grid-listesp{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.logocdo {
+    margin-left: 46%;
+}
+    
+.grid-ul {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+  
+#sectionespecial , .divcervezas , .divpostres , .divcontacto , .classfooter {
+    background-color: #535353
+    
+}
+
+#sectionespecial {
+    padding-bottom: 7em;
+}
+
+
+.parrafo-especialidades {
+    margin: 10%;
+    padding: 5%;
+    border: 2px solid black;
+    position: relative;
+    font-size: 1.2em ;
+    border-radius: 1em;
+}
+.ul-lista-especialidades {
+    
+    margin-left: 3em;
+    margin-right: 10%;
+    position: relative;
+    margin-top: 50%;
+    padding: 15% ;
+    font-size: 1.5em;
+    list-style: circle;
+}
+.foto-burguer-esp {
+    margin-left: 7%;
+    margin-bottom: 10%; 
+    margin-top: 22%;
+}
+.parrafo-especialidades , .ul-lista-especialidades , .parrafo-cerv , .ul-li-cerv , .lis-pos1 , .lis-pos2  {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black   
+}
+
+.ul-lista-especialidades , .foto-burguer-esp , .parrafo-especialidades , .ul-lista-especialidades , .lis-pos1 , .lis-pos2 , .picpapas {
+    border: 2px solid white;
+    border-radius: 1em;
+    box-sizing: border-box;
+}
+
+    /*fin estilo main section 1*/
+    /*section 2*/
+
+.divcervezas {
+    display: grid;
+    grid-template-columns: .5fr 1.5fr .5fr;
+    grid-template-rows: .1fr .3fr 2fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.div-cerv-cerv {
+    grid-column: 1/4;
+
+}
+
+#divlogcer {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    box-sizing: border-box;    
+}
+
+
+.logo-cerv {
+    margin-left: 46%;
+}
+
+.div-parr-cer {
+    box-sizing: border-box;
+    grid-column: 2/3;
+    grid-row: 4/4;
+    
+}
+
+.div-copa {
+    box-sizing: border-box;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin-left: 70%;
+    
+}
+
+#rid-li-cer {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+
+.ul-li-cerv {
+    padding: 10%;
+    font-size: 1.5em;
+    list-style: circle;
+    border: 2px solid white;
+    
+}
+
+.ul-li-cerv , .parrafo-cerv , .foto-copa {
+    border-radius: 1em;
+    border: 2px solid white ;
+
+}
+
+.foto-copa {
+    box-sizing: border-box;   
+    max-width: 100%;
+    padding-bottom: 7%;     
+}
+
+.parrafo-cerv {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 3em;
+    padding-bottom: 4%;
+    max-width: 100%;
+    border: 2px solid white;
+    font-size: 1.5em ;
+    border-radius: 1em;
+}
+
+    /*fin section 2*/
+    /*comienzo section 3*/
+
+.divpostres {
+    
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(2, 0.3fr) 1fr .5fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+}
+
+.cont-log {
+    grid-area: 2 / 1 / 3 / 4;
+    margin-left: 47%;
+    margin-right: 46%;
+}
+
+.cont-post {
+    grid-area: 1 / 1 / 2 / 4;
+}
+
+.video-post {
+    
+    grid-area: 3 / 2 / 4 / 3;
+    max-width: 100%;
+    margin-left: 15%;
+    
+}
+
+.conten-lispos {
+    grid-area: 3 / 3 / 5 / 3;
+    
+
+}
+
+.lis-pos1 {
+    box-sizing: content-box;
+    margin-right: 22%;
+    padding-left: 8%;
+    padding-bottom: 54%;
+    padding-top: 6%
+    
+}
+
+.listaa-post22 {
+    grid-area: 3 / 1 / 5 / 4;
+}
+
+
+.lis-pos2 {
+   box-sizing: content-box;
+   padding-left: 3%;
+   padding-top: 2%;
+   margin-right: 75%;
+   margin-left: 5%;
+   padding-bottom: 12%;   
+}
+
+    /* fin section 3*/
+
+    /*comienzo section 4*/
+.divcontacto {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 0.2fr) repeat(2, 0.5fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.conteinercontacto {
+    grid-area: 1 / 1 / 2 / 6;
+}
+
+.logocontac {
+    grid-area: 2 / 3 / 3 / 6;
+    margin-left: 19%;
+}
+
+.conten-par-contac {
+    grid-area: 4 / 4 / 5 / 4;
+    margin-top: 10%;
+
+}
+
+.parrafo-contac {
+    font-size: 1.5em;
+    
+}
+
+.div-redes {
+    font-size: 1.5em;
+    margin-top: 7%;
+    padding-left: 5%;
+    grid-area: 4 / 2 / 5 / 4;
+}
+
+.fotos-contac {
+    grid-area: 3 / 1 / 4 / 2;
+    
+}
+
+.fotopizza-contac {
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.fotodegust {
+    grid-area: 3 / 3 / 4 / 4;
+}
+
+.fotopapacontac {
+    grid-area: 3 / 4 / 4 / 5;
+}
+
+.fotovasocontac {
+    grid-area: 3 / 5 / 4 / 6;
+}
+
+    /*fin section 4*/
+    /*fin main*/
+    /*section footer*/
+
+.sectionfot {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.2fr 0.5fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.logofooter {
+    grid-area: 3 / 2 / 3 / 2;
+    padding-left: 40%;
+}
+
+.sectionfot {
+    border: 2px solid  white;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.frase-footer {
+    font-size: 1.5em;
+    grid-area: 1 / 3 / 2 / 3;
+}
+
+.info-footer {
+    font-size: 1.4em;
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+    /*fin footer*/
