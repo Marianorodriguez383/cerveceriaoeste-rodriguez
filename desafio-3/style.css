@@ -10,30 +10,37 @@
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 3em;
-    background-color: black;
-    color: white ;
+    background-image: linear-gradient(black , white);
+    color: black ;
     text-align: left;
     padding-top: .5em;
+    
 }
+
+
     /*fin estilo h1*/
     
     /*nav principal encabezado*/
 
-
-
-.nav {
-    margin-bottom: 6em;
+.menu-nav :hover{
+    background-color: #887d7d;
+    transition: all 1s;
+    border-radius: 5%;
     
 }
+.menu-nav {
+    background-color: rgb(34, 32, 32);
+}
+
 
 
 
 .nav , .menu-nav , .li-home , .li-esp , .li-cerv , .li-postr , .li-contac , .home-a , .esp-a , .cerv-a , .post-a , .contac-a {
     list-style: none;
     text-align: center;
-    background-color: black ;
     text-decoration: none;
     color: #f4f4f4;
+    
 }
 
 .li-home , .li-esp , .li-cerv , .li-postr, .li-contac {
@@ -54,7 +61,7 @@ h2 {
     font-size: 4em;
     color: white ;
     padding: 10px;
-    background-color: black;
+    background-image: linear-gradient(to top, black , grey);
     margin-top: 12%;    
 }
     /*fin style h2*/
@@ -79,12 +86,13 @@ h2 {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, 1fr);
     
+    
 }
 .conteinervermas {
     font-size: 3em ;
     padding-left: 44.3% ;
     padding-right: 44.3%;
-    background-color: transparent ;
+    background-color: rgb(196, 42, 42) ;
     text-align: center;
     display: grid;
     grid-template-columns: (1,1fr);
