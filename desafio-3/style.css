@@ -105,10 +105,15 @@ h2 {
     line-height: 3;
     text-align: center;
     background-color:black;
-    font-size: 2.5em;
+    font-size: 2.5em;    
+}
 
-    
-    
+.conteinertituloespecialidades {
+    transition: all 2s;
+}
+
+.conteinertituloespecialidades:hover {
+    transform: scale(1.5);
 }
 
     /*fin estilo titulos main*/
@@ -135,10 +140,12 @@ h2 {
 .logespc {
     grid-column-start: 2;
     grid-column-end: 3;
-
     display: flex;
     justify-content: center;
+    margin-top: 5%;
+    
 }
+
 
 
 .fotoesp {
@@ -146,6 +153,8 @@ h2 {
    grid-column-end: 2;
    grid-row-start: 2;
    grid-row-end: 4;
+   
+
    
 
 }
@@ -187,6 +196,13 @@ h2 {
     padding-bottom: 7em;
 }
 
+.parrafo-especialidades:hover {
+    background-color: #867777;
+    transition-property: background;
+    transition-duration: 2s;
+}
+
+
 
 .parrafo-especialidades {
     margin: 10%;
@@ -195,7 +211,16 @@ h2 {
     position: relative;
     font-size: 1.2em ;
     border-radius: 1em;
+    background-color: #535353;
+    
 }
+
+.ul-lista-especialidades:hover {
+    background-color: #867777;
+    transition-property: background;
+    transition-duration: 2s;
+}
+
 .ul-lista-especialidades {
     
     margin-left: 3em;
@@ -221,6 +246,7 @@ h2 {
     border-radius: 1em;
     box-sizing: border-box;
 }
+
 
     /*fin estilo main section 1*/
     /*section 2*/
