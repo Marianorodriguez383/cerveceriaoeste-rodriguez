@@ -92,7 +92,7 @@ h2 {
     font-size: 3em ;
     padding-left: 44.3% ;
     padding-right: 44.3%;
-    background-color: rgb(196, 42, 42) ;
+    background-color: black;
     text-align: center;
     display: grid;
     grid-template-columns: (1,1fr);
